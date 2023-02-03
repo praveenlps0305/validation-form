@@ -31,7 +31,7 @@ function App() {
       setError("Phone Number Should be only Numeric ")
       return false;
     }
-    if (phone.length != 10) {
+    if (phone.length !== 10) {
       setError("Phone Number Should be Only 10 Digits")
       return false
     }
@@ -47,7 +47,7 @@ function App() {
       setError("Parent's/Guardian's Number Can only be Numeric Digits")
       return false
     }
-    if (parentNumber.length != 10) {
+    if (parentNumber.length !== 10) {
       setError("Parent's/Guardian's Number Should be of 10 Digits")
       return false
     }
@@ -55,7 +55,7 @@ function App() {
       setError("Emergency Number Can Only be Numeric Digits")
       return false;
     }
-    if (emergencyNumber.length != 10) {
+    if (emergencyNumber.length !== 10) {
       setError("Emergency Number should be of 10 Digits")
       return false;
     }
